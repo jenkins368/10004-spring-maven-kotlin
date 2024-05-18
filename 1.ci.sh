@@ -6,6 +6,8 @@ echo $PROJECT_NAME
 cd $CMD_PATH
 ls -al
 cd demo
+. ~/.os.shellrc
+jabba use corretto@17
 echo "hello world"
 
 
